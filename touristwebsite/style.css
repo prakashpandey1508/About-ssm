@@ -1,0 +1,212 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+
+}
+header
+{
+ 
+    width: 100%;
+    height: 100vh;
+    background-image: url('media/bg.jpg');
+    background-repeat: no-repeat;
+    background: cover;
+    background-position: 60px 70px;
+    position: relative;
+    
+
+    
+    /*background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8));*/    
+}
+
+nav
+{
+    width: 100%;
+    height:11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background-color:rgba(0,0,0,0.2);
+    position: relative;
+    
+
+}
+.ssm
+{
+    font-weight: bold;
+    font-style: italic;
+    color: aqua;
+    width: 60%;
+    height: auto;
+}
+nav .logo
+{
+  width: 25%;
+  text-align: center;
+}
+.menu
+{
+    position: sticky;
+}
+nav .menu
+{
+  width: 50%;  
+  display: flex;
+  position: sticky;
+ /* justify-content: space-around;*/
+  
+}
+nav .menu a{
+    width: 30%;
+    color: chocolate;
+    position: sticky;
+
+
+}
+nav .menu a:hover
+{
+    color: aqua;
+    text-shadow: 2000px;
+    font-size: large;
+
+}
+main
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.welcome
+{
+    font-size: 50px;
+    color: darkturquoise;
+     letter-spacing: 3px;
+     text-shadow: 3px 1px 5px black;
+}
+.welcome1
+{
+    font-size: 30px;
+ letter-spacing: 3px;
+text-shadow: 3px 1px 5px black;
+color: azure;
+margin: 30px 0px 20px 0;
+}
+section a
+{ 
+    padding: 12px 30px;
+    border-radius: 13px;
+    outline: none;
+    text-decoration: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color:white
+    
+
+}
+section .btnone
+{
+    background-color: dimgray;
+    text-transform: uppercase;
+    border-color: black;
+    border-width: 20px;
+}
+section .btntwo
+{
+    background-color: cornflowerblue;
+}
+.btnone:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+  }
+  .btntwo:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+  }
+.ssm
+{
+    animation: pulse 1s infinite linear;
+    transition: .9s;
+
+}   
+@keyframes pulse
+{
+    0% {
+        transform: scale(0.0);
+      }
+      50%
+      {
+          color: brown;
+      }
+      70% {
+        transform: scale(.1);
+      }
+        100% {
+        transform: scale(3);
+      }
+
+}  
+  .change_content::after
+  {
+      content:'' ;
+      animation: change 15s infinite linear;
+       color: coral;
+  }
+  @keyframes change
+  {
+      0%
+      {
+          content: "SHER SHAH TOMB";
+      }
+      20%
+      {
+          content: 'TARACHANDI DHAM';
+      }
+      30%
+      {
+          content: "WATERFALLS";
+
+      }
+      50%
+      {
+          content: 'KAIMUR TIGER RESERVE';
+
+      }
+      70%
+      {
+          content: 'INDERPURI BARAJ';
+
+      }
+      80%
+      {
+          content: 'TEMPLES';
+      }
+      90%
+      {
+          content: "KAIMUR HILL STATION";
+      }
+      100%
+      {
+          content: "MUNDESHWARI TEMPLE";
+      }
+  }
+  .tomb div
+  {
+      width: 100px;
+      height: 200px;
+      border-width: 300px;
+      border-color: black;
+      border-radius: 4px;
+      background-color: aqua;
+
+  }
+  .x
+  {
+      position: sticky;
+  }
